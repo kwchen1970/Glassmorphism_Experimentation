@@ -23,6 +23,62 @@ struct ContentView: View {
                 }
                 Section {
                     ScrollView(.horizontal) {
+                        IsekaiView()
+                    }
+                } header: {
+                    Text("Isekai")
+                        .modifier(SectionHeaderStyling())
+                }
+                Section {
+                    ScrollView(.horizontal) {
+                        SliceofLifeView()
+                    }
+                } header: {
+                    Text("Slice of Life")
+                        .modifier(SectionHeaderStyling())
+                }
+                Section {
+                    ScrollView(.horizontal) {
+                        SportsView()
+                    }
+                } header: {
+                    Text("Sports")
+                        .modifier(SectionHeaderStyling())
+                }
+                Section {
+                    ScrollView(.horizontal) {
+                        RomanceView()
+                    }
+                } header: {
+                    Text("Romance")
+                        .modifier(SectionHeaderStyling())
+                }
+                Section {
+                    ScrollView(.horizontal) {
+                        PsychologicalView()
+                    }
+                } header: {
+                    Text("Psychological")
+                        .modifier(SectionHeaderStyling())
+                }
+                Section {
+                    ScrollView(.horizontal) {
+                        FantasyView()
+                    }
+                } header: {
+                    Text("Fantasy")
+                        .modifier(SectionHeaderStyling())
+                }
+                Section {
+                    ScrollView(.horizontal) {
+                        SciFiView()
+                    }
+                } header: {
+                    Text("Sci-Fi")
+                        .modifier(SectionHeaderStyling())
+                }
+                Section {
+                    ScrollView(.horizontal) {
                         AllView()
                     }
                 .frame(height:250)
