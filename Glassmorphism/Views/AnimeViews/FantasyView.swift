@@ -9,7 +9,13 @@ import SwiftUI
 
 struct FantasyView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        LazyHStack {
+            ForEach(animes) {anime in
+                if anime.genre == "Fantasy"{
+                    CellpictureView(anime_cover: anime, width: 150,height:200, cornerRadius: 0)
+                }
+            }
+        }
     }
 }
 

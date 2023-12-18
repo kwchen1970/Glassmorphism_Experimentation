@@ -14,27 +14,37 @@ struct ContentView: View {
                 Section {
                     ScrollView(.horizontal) {
                         ShonenView()
-                        .padding()
+                        
                     }
                 } header: {
                     Text("Shonen")
+                        .modifier(SectionHeaderStyling())
                     
                 }
                 Section {
                     ScrollView(.horizontal) {
                         AllView()
-                        .padding()
                     }
                 .frame(height:250)
                 } header: {
                     Text("All")
+                        .modifier(SectionHeaderStyling())
                 }
                 
-            }
+            }.padding()
         }
     }
 }
-
+struct SectionHeaderStyling: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.headline)
+            .frame(maxWidth:.infinity,alignment:.leading)
+            .background{
+                Color.clear
+            }
+    }
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
