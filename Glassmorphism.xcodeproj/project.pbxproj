@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		609594A72B2F9F2200EAE991 /* CellpictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594A62B2F9F2200EAE991 /* CellpictureView.swift */; };
+		609594A92B2FD55400EAE991 /* ShonenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594A82B2FD55400EAE991 /* ShonenView.swift */; };
+		609594AC2B2FD5B800EAE991 /* IsekaiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594AB2B2FD5B800EAE991 /* IsekaiView.swift */; };
+		609594AE2B2FD5CA00EAE991 /* SliceofLifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594AD2B2FD5CA00EAE991 /* SliceofLifeView.swift */; };
+		609594B02B2FD66600EAE991 /* SportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594AF2B2FD66600EAE991 /* SportsView.swift */; };
+		609594B22B2FD67300EAE991 /* RomanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594B12B2FD67300EAE991 /* RomanceView.swift */; };
+		609594B42B2FD68F00EAE991 /* AllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594B32B2FD68F00EAE991 /* AllView.swift */; };
+		609594B62B2FD6DD00EAE991 /* PsychologicalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594B52B2FD6DD00EAE991 /* PsychologicalView.swift */; };
+		609594B82B2FD71000EAE991 /* FantasyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594B72B2FD71000EAE991 /* FantasyView.swift */; };
+		609594BA2B2FD72700EAE991 /* SciFiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594B92B2FD72700EAE991 /* SciFiView.swift */; };
+		60AB3B642B2E996700D7FB2B /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AB3B632B2E996700D7FB2B /* Struct.swift */; };
+		60AB3B662B2EADCB00D7FB2B /* AnimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AB3B652B2EADCB00D7FB2B /* AnimeModel.swift */; };
+		60AB3B682B2EB42400D7FB2B /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AB3B672B2EB42400D7FB2B /* BookModel.swift */; };
 		60D9BF172B1BFAA500C8DF52 /* GlassmorphismApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D9BF162B1BFAA500C8DF52 /* GlassmorphismApp.swift */; };
 		60D9BF192B1BFAA500C8DF52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D9BF182B1BFAA500C8DF52 /* ContentView.swift */; };
 		60D9BF1B2B1BFAA600C8DF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D9BF1A2B1BFAA600C8DF52 /* Assets.xcassets */; };
@@ -14,6 +27,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		609594A62B2F9F2200EAE991 /* CellpictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellpictureView.swift; sourceTree = "<group>"; };
+		609594A82B2FD55400EAE991 /* ShonenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShonenView.swift; sourceTree = "<group>"; };
+		609594AB2B2FD5B800EAE991 /* IsekaiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsekaiView.swift; sourceTree = "<group>"; };
+		609594AD2B2FD5CA00EAE991 /* SliceofLifeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliceofLifeView.swift; sourceTree = "<group>"; };
+		609594AF2B2FD66600EAE991 /* SportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsView.swift; sourceTree = "<group>"; };
+		609594B12B2FD67300EAE991 /* RomanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanceView.swift; sourceTree = "<group>"; };
+		609594B32B2FD68F00EAE991 /* AllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllView.swift; sourceTree = "<group>"; };
+		609594B52B2FD6DD00EAE991 /* PsychologicalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologicalView.swift; sourceTree = "<group>"; };
+		609594B72B2FD71000EAE991 /* FantasyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyView.swift; sourceTree = "<group>"; };
+		609594B92B2FD72700EAE991 /* SciFiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciFiView.swift; sourceTree = "<group>"; };
+		60AB3B632B2E996700D7FB2B /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		60AB3B652B2EADCB00D7FB2B /* AnimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeModel.swift; sourceTree = "<group>"; };
+		60AB3B672B2EB42400D7FB2B /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 		60D9BF132B1BFAA500C8DF52 /* Glassmorphism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glassmorphism.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D9BF162B1BFAA500C8DF52 /* GlassmorphismApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphismApp.swift; sourceTree = "<group>"; };
 		60D9BF182B1BFAA500C8DF52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +58,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		609594A52B2F9F0800EAE991 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				609594AA2B2FD59E00EAE991 /* AnimeViews */,
+				609594A62B2F9F2200EAE991 /* CellpictureView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		609594AA2B2FD59E00EAE991 /* AnimeViews */ = {
+			isa = PBXGroup;
+			children = (
+				609594A82B2FD55400EAE991 /* ShonenView.swift */,
+				609594AB2B2FD5B800EAE991 /* IsekaiView.swift */,
+				609594AD2B2FD5CA00EAE991 /* SliceofLifeView.swift */,
+				609594AF2B2FD66600EAE991 /* SportsView.swift */,
+				609594B12B2FD67300EAE991 /* RomanceView.swift */,
+				609594B32B2FD68F00EAE991 /* AllView.swift */,
+				609594B52B2FD6DD00EAE991 /* PsychologicalView.swift */,
+				609594B72B2FD71000EAE991 /* FantasyView.swift */,
+				609594B92B2FD72700EAE991 /* SciFiView.swift */,
+			);
+			path = AnimeViews;
+			sourceTree = "<group>";
+		};
+		60AB3B622B2E994300D7FB2B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				60AB3B632B2E996700D7FB2B /* Struct.swift */,
+				60AB3B652B2EADCB00D7FB2B /* AnimeModel.swift */,
+				60AB3B672B2EB42400D7FB2B /* BookModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		60D9BF0A2B1BFAA500C8DF52 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +112,8 @@
 		60D9BF152B1BFAA500C8DF52 /* Glassmorphism */ = {
 			isa = PBXGroup;
 			children = (
+				609594A52B2F9F0800EAE991 /* Views */,
+				60AB3B622B2E994300D7FB2B /* Data */,
 				60D9BF162B1BFAA500C8DF52 /* GlassmorphismApp.swift */,
 				60D9BF182B1BFAA500C8DF52 /* ContentView.swift */,
 				60D9BF1A2B1BFAA600C8DF52 /* Assets.xcassets */,
@@ -137,7 +200,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609594B22B2FD67300EAE991 /* RomanceView.swift in Sources */,
+				609594A92B2FD55400EAE991 /* ShonenView.swift in Sources */,
+				60AB3B682B2EB42400D7FB2B /* BookModel.swift in Sources */,
+				609594BA2B2FD72700EAE991 /* SciFiView.swift in Sources */,
+				60AB3B642B2E996700D7FB2B /* Struct.swift in Sources */,
+				609594B62B2FD6DD00EAE991 /* PsychologicalView.swift in Sources */,
 				60D9BF192B1BFAA500C8DF52 /* ContentView.swift in Sources */,
+				609594AC2B2FD5B800EAE991 /* IsekaiView.swift in Sources */,
+				609594B02B2FD66600EAE991 /* SportsView.swift in Sources */,
+				609594A72B2F9F2200EAE991 /* CellpictureView.swift in Sources */,
+				609594B82B2FD71000EAE991 /* FantasyView.swift in Sources */,
+				609594B42B2FD68F00EAE991 /* AllView.swift in Sources */,
+				60AB3B662B2EADCB00D7FB2B /* AnimeModel.swift in Sources */,
+				609594AE2B2FD5CA00EAE991 /* SliceofLifeView.swift in Sources */,
 				60D9BF172B1BFAA500C8DF52 /* GlassmorphismApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
