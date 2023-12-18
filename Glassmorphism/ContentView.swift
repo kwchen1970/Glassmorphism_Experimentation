@@ -10,13 +10,26 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            
-            ScrollView {
-                ScrollView(.horizontal) {
-                    AllView()
-                    .padding()
+            ScrollView{
+                Section {
+                    ScrollView(.horizontal) {
+                        ShonenView()
+                        .padding()
+                    }
+                } header: {
+                    Text("Shonen")
+                    
                 }
-                .frame(height:300)
+                Section {
+                    ScrollView(.horizontal) {
+                        AllView()
+                        .padding()
+                    }
+                .frame(height:250)
+                } header: {
+                    Text("All")
+                }
+                
             }
         }
     }
