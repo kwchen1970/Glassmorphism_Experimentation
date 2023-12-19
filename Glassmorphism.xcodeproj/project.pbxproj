@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60536BC42B30EB2A00E9458E /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */; };
 		609594A72B2F9F2200EAE991 /* CellpictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594A62B2F9F2200EAE991 /* CellpictureView.swift */; };
 		609594A92B2FD55400EAE991 /* ShonenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594A82B2FD55400EAE991 /* ShonenView.swift */; };
 		609594AC2B2FD5B800EAE991 /* IsekaiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594AB2B2FD5B800EAE991 /* IsekaiView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		609594A62B2F9F2200EAE991 /* CellpictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellpictureView.swift; sourceTree = "<group>"; };
 		609594A82B2FD55400EAE991 /* ShonenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShonenView.swift; sourceTree = "<group>"; };
 		609594AB2B2FD5B800EAE991 /* IsekaiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsekaiView.swift; sourceTree = "<group>"; };
@@ -61,8 +63,9 @@
 		609594A52B2F9F0800EAE991 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				609594AA2B2FD59E00EAE991 /* AnimeViews */,
+				60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */,
 				609594A62B2F9F2200EAE991 /* CellpictureView.swift */,
+				609594AA2B2FD59E00EAE991 /* AnimeViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				609594B22B2FD67300EAE991 /* RomanceView.swift in Sources */,
 				609594A92B2FD55400EAE991 /* ShonenView.swift in Sources */,
 				60AB3B682B2EB42400D7FB2B /* BookModel.swift in Sources */,
+				60536BC42B30EB2A00E9458E /* CustomTabBarView.swift in Sources */,
 				609594BA2B2FD72700EAE991 /* SciFiView.swift in Sources */,
 				60AB3B642B2E996700D7FB2B /* Struct.swift in Sources */,
 				609594B62B2FD6DD00EAE991 /* PsychologicalView.swift in Sources */,

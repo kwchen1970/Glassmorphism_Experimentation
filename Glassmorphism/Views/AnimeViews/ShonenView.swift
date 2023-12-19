@@ -15,7 +15,8 @@ struct ShonenView: View {
                     CellpictureView(anime_cover: anime, width: 150,height:200, cornerRadius: 0)
                 }
             }
-        }
+            
+        }//.padding(.leading, 10)
     }
 }
 
@@ -24,3 +25,4 @@ struct ShonenView_Previews: PreviewProvider {
         ShonenView()
     }
 }
+

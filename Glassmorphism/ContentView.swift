@@ -19,8 +19,7 @@ struct ContentView: View {
                 } header: {
                     Text("Shonen")
                         .modifier(SectionHeaderStyling())
-                    
-                }
+                } .padding(.leading,10)
                 Section {
                     ScrollView(.horizontal) {
                         IsekaiView()
@@ -28,7 +27,7 @@ struct ContentView: View {
                 } header: {
                     Text("Isekai")
                         .modifier(SectionHeaderStyling())
-                }
+                } .padding(.leading,10)
                 Section {
                     ScrollView(.horizontal) {
                         SliceofLifeView()
@@ -36,7 +35,7 @@ struct ContentView: View {
                 } header: {
                     Text("Slice of Life")
                         .modifier(SectionHeaderStyling())
-                }
+                } .padding(.leading,10)
                 Section {
                     ScrollView(.horizontal) {
                         SportsView()
@@ -44,7 +43,7 @@ struct ContentView: View {
                 } header: {
                     Text("Sports")
                         .modifier(SectionHeaderStyling())
-                }
+                } .padding(.leading,10)
                 Section {
                     ScrollView(.horizontal) {
                         RomanceView()
@@ -52,7 +51,7 @@ struct ContentView: View {
                 } header: {
                     Text("Romance")
                         .modifier(SectionHeaderStyling())
-                }
+                }.padding(.leading,10)
                 Section {
                     ScrollView(.horizontal) {
                         PsychologicalView()
@@ -60,7 +59,7 @@ struct ContentView: View {
                 } header: {
                     Text("Psychological")
                         .modifier(SectionHeaderStyling())
-                }
+                }.padding(.leading,10)
                 Section {
                     ScrollView(.horizontal) {
                         FantasyView()
@@ -68,7 +67,7 @@ struct ContentView: View {
                 } header: {
                     Text("Fantasy")
                         .modifier(SectionHeaderStyling())
-                }
+                } .padding(.leading,10)
                 Section {
                     ScrollView(.horizontal) {
                         SciFiView()
@@ -76,18 +75,18 @@ struct ContentView: View {
                 } header: {
                     Text("Sci-Fi")
                         .modifier(SectionHeaderStyling())
-                }
+                } .padding(.leading,10)
                 Section {
-                    ScrollView(.horizontal) {
+                    ScrollView(.vertical) {
                         AllView()
                     }
-                .frame(height:250)
+                    
+                .frame(height:700)
                 } header: {
                     Text("All")
                         .modifier(SectionHeaderStyling())
-                }
-                
-            }.padding()
+                } .padding(.leading,10)
+            } 
         }
     }
 }

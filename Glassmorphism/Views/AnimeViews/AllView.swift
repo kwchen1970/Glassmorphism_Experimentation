@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AllView: View {
     var body: some View {
-        LazyHStack {
+        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())]) {
             ForEach(animes) {anime in
                 CellpictureView(anime_cover: anime, width: 150,height:200, cornerRadius: 0)
             }
