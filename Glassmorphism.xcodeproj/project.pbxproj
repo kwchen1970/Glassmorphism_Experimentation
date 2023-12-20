@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60536BC42B30EB2A00E9458E /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */; };
+		607D6D3D2B3294B500E68E2C /* AnimeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D6D3C2B3294B500E68E2C /* AnimeTabView.swift */; };
 		609594A72B2F9F2200EAE991 /* CellpictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594A62B2F9F2200EAE991 /* CellpictureView.swift */; };
 		609594A92B2FD55400EAE991 /* ShonenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594A82B2FD55400EAE991 /* ShonenView.swift */; };
 		609594AC2B2FD5B800EAE991 /* IsekaiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609594AB2B2FD5B800EAE991 /* IsekaiView.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		607D6D3C2B3294B500E68E2C /* AnimeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeTabView.swift; sourceTree = "<group>"; };
 		609594A62B2F9F2200EAE991 /* CellpictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellpictureView.swift; sourceTree = "<group>"; };
 		609594A82B2FD55400EAE991 /* ShonenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShonenView.swift; sourceTree = "<group>"; };
 		609594AB2B2FD5B800EAE991 /* IsekaiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsekaiView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		609594A52B2F9F0800EAE991 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				607D6D3C2B3294B500E68E2C /* AnimeTabView.swift */,
 				60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */,
 				609594A62B2F9F2200EAE991 /* CellpictureView.swift */,
 				609594AA2B2FD59E00EAE991 /* AnimeViews */,
@@ -212,6 +215,7 @@
 				609594B62B2FD6DD00EAE991 /* PsychologicalView.swift in Sources */,
 				60D9BF192B1BFAA500C8DF52 /* ContentView.swift in Sources */,
 				609594AC2B2FD5B800EAE991 /* IsekaiView.swift in Sources */,
+				607D6D3D2B3294B500E68E2C /* AnimeTabView.swift in Sources */,
 				609594B02B2FD66600EAE991 /* SportsView.swift in Sources */,
 				609594A72B2F9F2200EAE991 /* CellpictureView.swift in Sources */,
 				609594B82B2FD71000EAE991 /* FantasyView.swift in Sources */,
