@@ -1,20 +1,20 @@
 //
-//  CustomTabBarView.swift
+//  BookTabView.swift
 //  Glassmorphism
 //
-//  Created by Kathleen Chen on 12/18/23.
+//  Created by Kathleen Chen on 12/19/23.
 //
 
 import SwiftUI
 
-struct CustomTabBarView: View {
+struct BookTabView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct CustomTabBarView_Previews: PreviewProvider {
+struct BookTabView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomTabBarView()
+        BookTabView()
     }
 }

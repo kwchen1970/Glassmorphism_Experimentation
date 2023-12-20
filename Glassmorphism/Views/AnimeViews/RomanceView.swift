@@ -11,7 +11,7 @@ struct RomanceView: View {
     var body: some View {
         LazyHStack {
             ForEach(animes) {anime in
-                if anime.genre == "Romance"{
+                if anime.genre.contains("Romance"){
                     CellpictureView(anime_cover: anime, width: 150,height:200, cornerRadius: 0)
                 }
             }
