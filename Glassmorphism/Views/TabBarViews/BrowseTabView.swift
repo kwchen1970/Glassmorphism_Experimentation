@@ -10,6 +10,7 @@ import SwiftUI
 struct BrowseTabView: View {
     var body: some View {
         AnimeTabView()
+        
     }
 }
 

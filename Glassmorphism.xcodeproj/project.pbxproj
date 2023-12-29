@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60197DDA2B3E86D4001A3B16 /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60197DD92B3E86D4001A3B16 /* CustomNavBar.swift */; };
 		60536BC42B30EB2A00E9458E /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */; };
 		607D6D3D2B3294B500E68E2C /* AnimeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D6D3C2B3294B500E68E2C /* AnimeTabView.swift */; };
 		607D6D3F2B329DCE00E68E2C /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D6D3E2B329DCE00E68E2C /* TabData.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60197DD92B3E86D4001A3B16 /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
 		60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		607D6D3C2B3294B500E68E2C /* AnimeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeTabView.swift; sourceTree = "<group>"; };
 		607D6D3E2B329DCE00E68E2C /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		609594A52B2F9F0800EAE991 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				60197DD92B3E86D4001A3B16 /* CustomNavBar.swift */,
 				609594A62B2F9F2200EAE991 /* CellpictureView.swift */,
 				607D6D442B32A01800E68E2C /* TabBarViews */,
 				609594AA2B2FD59E00EAE991 /* AnimeViews */,
@@ -250,6 +253,7 @@
 				609594B02B2FD66600EAE991 /* SportsView.swift in Sources */,
 				609594A72B2F9F2200EAE991 /* CellpictureView.swift in Sources */,
 				609594B82B2FD71000EAE991 /* FantasyView.swift in Sources */,
+				60197DDA2B3E86D4001A3B16 /* CustomNavBar.swift in Sources */,
 				607D6D3F2B329DCE00E68E2C /* TabData.swift in Sources */,
 				609594B42B2FD68F00EAE991 /* AllView.swift in Sources */,
 				60AB3B662B2EADCB00D7FB2B /* AnimeModel.swift in Sources */,

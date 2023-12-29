@@ -22,11 +22,16 @@ struct CustomTabBarView: View {
                             currentTab = tab
                         }
                     } label: {
-                        Image(systemName: currentTab == tab ? fillImage: tab.systemImage)
-                     //   Image(systemName: tab.systemImage)
-                            .renderingMode(.template)
-                            .frame(maxWidth:.infinity)
-                            .foregroundColor(.white)
+                        VStack(spacing: 1){
+                            Image(systemName: currentTab == tab ? fillImage: tab.systemImage)
+                                .renderingMode(.template)
+                                .frame(width: 35, height: 35)
+                                .foregroundColor(.white)
+                            Text(tab.rawValue)
+                                .font(.caption)
+                                .foregroundColor(.white)
+                        }
+                        .frame(maxWidth: .infinity)
                     }
                 }
             }
