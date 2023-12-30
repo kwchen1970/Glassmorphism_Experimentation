@@ -13,12 +13,12 @@ struct CustomNavBar: View {
         VStack{
             HStack{
                 Text("anirate")
-                    .font(.system(size: 48, weight: .bold, design: .serif))
+                    .font(.system(size: 30, weight: .bold, design: .serif))
                     .foregroundColor(Color(pink))
                 Spacer()
                 Image(systemName: "magnifyingglass")
                     .resizable()
-                    .frame(width:30, height: 30, alignment: .center)
+                    .frame(width:20, height: 20, alignment: .center)
                 
             }
             .fixedSize(horizontal: false, vertical: true)

@@ -11,6 +11,18 @@ struct AnimeTabView: View {
     var body: some View {
         NavigationView {
             VStack{
+                // geometry reader
+//                GeometryReader{reader -> AnyView in
+//                    let yAxis = reader.frame(in:. global).minY
+//
+//                    print(yAxis)
+//
+//                    return AnyView(
+//                        Text("")
+//                            .frame(width:0, height: 0)
+//                    )
+//                }
+              //  .frame(width:0, height:0)
                 HStack{
                     Text("anirate")
                         .font(.system(size: 48, weight: .bold, design: .serif))
