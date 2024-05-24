@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct BookTabView: View {
+struct BookTabVC: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct BookTabView_Previews: PreviewProvider {
+struct BookTabVC_Previews: PreviewProvider {
     static var previews: some View {
-        BookTabView()
+        BookTabVC()
     }
 }

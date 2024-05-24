@@ -16,13 +16,13 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 0.0) {
             TabView(selection: $currentTab) {
-                HomeTabView()
+                HomeTabVC()
                     .tag(Tab.homes)
                 BrowseTabView()
                     .tag(Tab.browse)
-                SavedTabView()
+                SavedTabVC()
                     .tag(Tab.saved)
-                ProfileTabView()
+                ProfileTabVC()
                     .tag(Tab.account)
 
             }

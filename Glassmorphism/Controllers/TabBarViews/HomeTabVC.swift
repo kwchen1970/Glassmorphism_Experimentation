@@ -1,5 +1,5 @@
 //
-//  SavedTabView.swift
+//  HomeTabView.swift
 //  Glassmorphism
 //
 //  Created by Kathleen Chen on 12/19/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct SavedTabView: View {
+struct HomeTabVC: View {
     var body: some View {
-        Text("saved")
+        Text("Home")
     }
 }
 
-struct SavedTabView_Previews: PreviewProvider {
+struct HomeTabVC_Previews: PreviewProvider {
     static var previews: some View {
-        SavedTabView()
+        HomeTabVC()
     }
 }

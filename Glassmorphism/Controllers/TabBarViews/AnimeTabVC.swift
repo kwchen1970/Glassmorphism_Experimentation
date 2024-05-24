@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AnimeTabView: View {
+struct AnimeTabVC: View {
     var body: some View {
         NavigationView {
             VStack{
@@ -129,8 +129,8 @@ struct SectionHeaderStyling: ViewModifier {
     }
 }
 
-struct AnimeTabView_Previews: PreviewProvider {
+struct AnimeTabVC_Previews: PreviewProvider {
     static var previews: some View {
-        AnimeTabView()
+        AnimeTabVC()
     }
 }

@@ -1,5 +1,5 @@
 //
-//  BrowseTabView.swift
+//  SavedTabView.swift
 //  Glassmorphism
 //
 //  Created by Kathleen Chen on 12/19/23.
@@ -7,16 +7,14 @@
 
 import SwiftUI
 
-struct BrowseTabView: View {
+struct SavedTabVC: View {
     var body: some View {
-
-        AnimeTabView()
-        
+        Text("saved")
     }
 }
 
-struct BrowseTabView_Previews: PreviewProvider {
+struct SavedTabVC_Previews: PreviewProvider {
     static var previews: some View {
-        BrowseTabView()
+        SavedTabVC()
     }
 }

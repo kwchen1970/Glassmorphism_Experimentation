@@ -12,7 +12,10 @@ struct SliceofLifeView: View {
         LazyHStack {
             ForEach(animes) {anime in
                 if anime.genre.contains("Slice of Life"){
-                    CellpictureView(anime_cover: anime, width: 150,height:200, cornerRadius: 0)
+                    NavigationLink(destination: DetailVC(anime:anime), label:{
+                        CellpictureView(anime_cover: anime, width: 150,height:200, cornerRadius: 0)
+                    })
+                    
                 }
             }
         }

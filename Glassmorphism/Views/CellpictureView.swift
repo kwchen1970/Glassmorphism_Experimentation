@@ -29,6 +29,7 @@ struct CellpictureView: View {
                         .multilineTextAlignment(.leading)
                         .padding(3)
                         .frame(maxWidth: width, alignment: .leading)
+                        .foregroundColor(.primary)
                     
                 })
                 .overlay(alignment: .bottomLeading, content:{
@@ -37,15 +38,18 @@ struct CellpictureView: View {
                             .multilineTextAlignment(.leading)
                             .font(.system(size: height/15, weight: .semibold))
                             .offset(y: -5)
+                            .foregroundColor(.primary)
 
                         Text("•").lineLimit(1).truncationMode(.tail)
                             .font(.system(size: height/15, weight: .semibold))
                             .multilineTextAlignment(.leading)
                             .offset(y: -5)
+                            .foregroundColor(.primary)
 
                         Text(anime_cover.genre).lineLimit(1).truncationMode(.tail)
                             .font(.system(size: height/15, weight: .semibold))
                             .offset(y: -5)
+                            .foregroundColor(.primary)
                     }
                     .padding(3)
                     .frame(maxWidth:width, alignment: .leading)
