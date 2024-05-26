@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DetailVC: View {
     var anime: Anime
+    
 //    let width: CGFloat
 //    let height: CGFloat
     var body: some View {
@@ -22,7 +23,24 @@ struct DetailVC: View {
                     .offset(y: -10)
                     .edgesIgnoringSafeArea(.top)
                 Text(anime.name)
-                    .offset(y:-50)
+                    .padding(10)
+                    .offset(y:-120)
+                    .font(.system(size: 36, weight: .bold))
+                    .fontWeight(.medium)
+                Group{
+                    Text(anime.type_show )
+                        .font(.system(size: 20, weight: .semibold))
+                        .offset(y:-130)
+                        .padding(10)
+                    Text(anime.rating)
+                        .font(.system(size: 20, weight: .semibold))
+                        .offset(y:-130)
+                        .padding(10)
+                }
+                Text(anime.summary)
+                    .padding(10)
+                    
+                
                 
             }.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
             Spacer()
