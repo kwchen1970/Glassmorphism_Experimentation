@@ -9,11 +9,12 @@ import Foundation
 
 struct Anime: Identifiable {
     let name: String
-    let rating: String
+    let rating: Double
     let image: String
     let type_show: String
     let summary: String
     let genre: String
+    let reviews: [String]
     let id = UUID()
 }
 

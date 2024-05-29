@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		60197DDA2B3E86D4001A3B16 /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60197DD92B3E86D4001A3B16 /* CustomNavBar.swift */; };
 		60536BC42B30EB2A00E9458E /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */; };
+		605466A02C05360B008C44FD /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6054669F2C05360B008C44FD /* StarRatingView.swift */; };
+		607B03802C07ACCD00FFD2B9 /* ExpandableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B037F2C07ACCD00FFD2B9 /* ExpandableTextView.swift */; };
+		607B03822C07B6EB00FFD2B9 /* CollapsableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B03812C07B6EB00FFD2B9 /* CollapsableTextView.swift */; };
 		607D6D3D2B3294B500E68E2C /* AnimeTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D6D3C2B3294B500E68E2C /* AnimeTabVC.swift */; };
 		607D6D3F2B329DCE00E68E2C /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D6D3E2B329DCE00E68E2C /* TabData.swift */; };
 		607D6D412B329FE200E68E2C /* BookTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D6D402B329FE200E68E2C /* BookTabVC.swift */; };
@@ -39,6 +42,9 @@
 /* Begin PBXFileReference section */
 		60197DD92B3E86D4001A3B16 /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
 		60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		6054669F2C05360B008C44FD /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		607B037F2C07ACCD00FFD2B9 /* ExpandableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTextView.swift; sourceTree = "<group>"; };
+		607B03812C07B6EB00FFD2B9 /* CollapsableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableTextView.swift; sourceTree = "<group>"; };
 		607D6D3C2B3294B500E68E2C /* AnimeTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeTabVC.swift; sourceTree = "<group>"; };
 		607D6D3E2B329DCE00E68E2C /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		607D6D402B329FE200E68E2C /* BookTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTabVC.swift; sourceTree = "<group>"; };
@@ -95,9 +101,12 @@
 		609594A52B2F9F0800EAE991 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				607B037F2C07ACCD00FFD2B9 /* ExpandableTextView.swift */,
+				6054669F2C05360B008C44FD /* StarRatingView.swift */,
 				60197DD92B3E86D4001A3B16 /* CustomNavBar.swift */,
 				609594A62B2F9F2200EAE991 /* CellpictureView.swift */,
 				609594AA2B2FD59E00EAE991 /* AnimeViews */,
+				607B03812C07B6EB00FFD2B9 /* CollapsableTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -251,6 +260,7 @@
 				609594A92B2FD55400EAE991 /* ShonenView.swift in Sources */,
 				60AB3B682B2EB42400D7FB2B /* BookModel.swift in Sources */,
 				60536BC42B30EB2A00E9458E /* CustomTabBarView.swift in Sources */,
+				605466A02C05360B008C44FD /* StarRatingView.swift in Sources */,
 				60DCF26B2BFFE78000707A24 /* DetailVC.swift in Sources */,
 				609594BA2B2FD72700EAE991 /* SciFiView.swift in Sources */,
 				60AB3B642B2E996700D7FB2B /* Struct.swift in Sources */,
@@ -267,9 +277,11 @@
 				609594B82B2FD71000EAE991 /* FantasyView.swift in Sources */,
 				60197DDA2B3E86D4001A3B16 /* CustomNavBar.swift in Sources */,
 				607D6D3F2B329DCE00E68E2C /* TabData.swift in Sources */,
+				607B03802C07ACCD00FFD2B9 /* ExpandableTextView.swift in Sources */,
 				609594B42B2FD68F00EAE991 /* AllView.swift in Sources */,
 				60AB3B662B2EADCB00D7FB2B /* AnimeModel.swift in Sources */,
 				609594AE2B2FD5CA00EAE991 /* SliceofLifeView.swift in Sources */,
+				607B03822C07B6EB00FFD2B9 /* CollapsableTextView.swift in Sources */,
 				60D9BF172B1BFAA500C8DF52 /* GlassmorphismApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
