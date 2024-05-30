@@ -70,13 +70,18 @@ struct DetailVC: View {
                         .offset(y:-100)
                     
                     
+                    Rectangle()
+                        .fill(Color(red:211,green:211, blue:211))
+                        .frame(width:370, height: 400)
+                        .cornerRadius(20)
+                        .offset(y:-100)
+                        .padding(10)
+                            
+                    
                 }.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
                     Spacer()
                
             }.edgesIgnoringSafeArea(.top)
-            VStack{
-                
-            }
             
         }
     }
