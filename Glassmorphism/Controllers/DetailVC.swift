@@ -7,6 +7,7 @@
 import Foundation
 import SwiftUI
 
+
 struct DetailVC: View {
     var anime: Anime
     
@@ -69,13 +70,26 @@ struct DetailVC: View {
                         .padding(5)
                         .offset(y:-100)
                     
-                    
-                    Rectangle()
-                        .fill(Color(red:211,green:211, blue:211))
-                        .frame(width:370, height: 400)
-                        .cornerRadius(20)
-                        .offset(y:-100)
-                        .padding(10)
+                    Section{
+//                        RoundedRectangle(cornerRadius: 30, style:   .circular)
+//                            .fill(Color(red: 230/250, green: 230/250, blue: 230/250))
+//                            .frame(width:370, height: 400)
+//                            .offset(y:-100)
+//                            .padding(10)
+                        ScrollView(.vertical) {
+                            Text("Sup")
+                            Text("Happy")
+                            Text("fweeasdfasdfadsfasdfadsfasfd")
+                        
+                            
+                        }.frame(maxWidth:370, maxHeight:400, alignment: .topLeading)
+                            .padding(15)
+                            .background(RoundedRectangle(cornerRadius:30,style:.circular)
+                                .fill(Color(red: 230/250, green: 230/250, blue: 230/250))
+                                .frame(width:370, height: 200)
+                                .padding(10)
+                            )
+                    }.offset(y:-40)
                             
                     
                 }.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
