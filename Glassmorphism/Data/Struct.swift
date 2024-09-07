@@ -28,3 +28,13 @@ struct Book: Identifiable {
     let length: String
     let id = UUID()
 }
+
+struct User: Identifiable{
+    let name: String
+    let profile_image: String
+    let bio: String
+    let username: String
+    let friends: [String]
+    let favorite_shows: [String]
+    let id = UUID()
+}

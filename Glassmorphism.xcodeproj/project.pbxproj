@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60197DDA2B3E86D4001A3B16 /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60197DD92B3E86D4001A3B16 /* CustomNavBar.swift */; };
+		604FC4C82C111B9300D66AA0 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604FC4C72C111B9300D66AA0 /* UserModel.swift */; };
 		60536BC42B30EB2A00E9458E /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */; };
 		605466A02C05360B008C44FD /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6054669F2C05360B008C44FD /* StarRatingView.swift */; };
 		607B03802C07ACCD00FFD2B9 /* ExpandableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607B037F2C07ACCD00FFD2B9 /* ExpandableTextView.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		60197DD92B3E86D4001A3B16 /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		604FC4C72C111B9300D66AA0 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		60536BC32B30EB2A00E9458E /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		6054669F2C05360B008C44FD /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
 		607B037F2C07ACCD00FFD2B9 /* ExpandableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTextView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				60AB3B652B2EADCB00D7FB2B /* AnimeModel.swift */,
 				60AB3B672B2EB42400D7FB2B /* BookModel.swift */,
 				607D6D3E2B329DCE00E68E2C /* TabData.swift */,
+				604FC4C72C111B9300D66AA0 /* UserModel.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				607D6D482B32A09B00E68E2C /* SavedTabVC.swift in Sources */,
 				609594B22B2FD67300EAE991 /* RomanceView.swift in Sources */,
 				609594A92B2FD55400EAE991 /* ShonenView.swift in Sources */,
+				604FC4C82C111B9300D66AA0 /* UserModel.swift in Sources */,
 				60AB3B682B2EB42400D7FB2B /* BookModel.swift in Sources */,
 				60536BC42B30EB2A00E9458E /* CustomTabBarView.swift in Sources */,
 				605466A02C05360B008C44FD /* StarRatingView.swift in Sources */,
